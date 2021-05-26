@@ -1,0 +1,63 @@
+.logo{
+    position:absolute;
+    width:150px;
+    height:150px;
+    background: url('./logo.png');
+    background-size: cover;
+    background-position: center;
+    left: 50%;
+    transform: translate(-50%, -13%);
+}
+.name{
+    top:150px;
+}
+.password{
+    top:180px;
+}
+.logbtn{
+    top:210px;
+    width:100%;
+    height:50px;
+}
+.link{
+    margin-top:220px;
+    margin-left:130px;
+    margin-bottom: 10px;
+}
+.line{
+    display:flex;
+    flex-direction: row;
+}
+.leftline{
+    width: 130px;
+    height: 0px;
+    border: 1px solid #AAA9A9;
+    margin-left:-200px;
+    margin-top: 10px;
+}
+.ou{
+    color:#AAA9A9;
+    margin-top: -10px;
+    margin-left: -15px;
+}
+.rightline{
+    width: 130px;
+    height: 0px;
+    border: 1px solid #AAA9A9;
+    margin-left:170px;
+    margin-top: -10px;
+}
+.out{
+    top:15px;
+    width:100%;
+    height:50px;
+}
+.micro{
+    background:url('./microsoft.png');
+    background-size: cover;
+    position:absolute;
+    background-position: center;
+    width:34px;
+    height: 34px;
+    margin-left:-250px;
+}
